@@ -1,0 +1,21 @@
+{
+    "name": "unodepiera/template-codeigniter",
+    "description": "Hello codeigniter 3",
+    "keywords": ["Codeigniter 3 hello"],
+    "homepage": "https://www.uno-de-piera.com",
+    "authors": [
+        {
+            "name": "unodepiera",
+            "email": "unodepiera@uno-de-piera.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloCI\\": "src/Helloci"
+        }
+    },
+    "minimum-stability": "dev"
+}
